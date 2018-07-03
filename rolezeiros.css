@@ -1,0 +1,913 @@
+/ * ---- CSS Por: MeninaVeneno ---- * /
+
+@keyframes fadein {
+	de {opacidade: 0;}
+	para {opacidade: 1;}
+}
+/ * #### [TEMA DE FUNDO] #### * /
+.room-background {
+	fundo: ;
+	largura: ;
+	altura:;
+}
+/ * #### [ICONE DA SALA] #### * /
+.icon-room {
+    plano de fundo: url () no-repeat;
+    largura: 38px! importante;
+    altura: 38px! importante;
+    top: 8px! importante;
+    esquerda: 2px! importante;
+}	
+/ * #### [MENSAGEM DE BOAS-VINDAS] #### * /
+# room-settings .general-settings .description .value {
+    largura: 500px;
+    altura: 300 px;
+}
+/ * #### [DESCRIÇÃO DA COMUNIDADE] #### * /
+# room-settings .general-settings .panel .title {
+    posição: relativa;
+    margem superior: 10px;
+    margin-left: 10px;
+    float: center;
+    cor: ;
+    text-transform: maiúscula;
+    tamanho da fonte: 13px;
+	font-family: fantasia;
+	esquerda: 320px;
+}
+# room-settings .geral-settings button, # room-settings .general-settings .option.enabled button.off {
+	fundo: gradiente linear (hsl (220,5%, 20%), hsl (220,5%, 10%))! importante;
+	box-shadow: inserção 0 0 2px hsla (0,0%, 100%, 0,5)! important;
+}
+# room-settings .geral-settings button: hover, # configurações da sala .general-settings .option.activity button.off:hover {
+	fundo: gradiente linear (hsl (220,50%, 20%), hsl (220,50%, 10%))! importante;
+	box-shadow: inserção 0 0 2px hsla (0,0%, 100%, 0,5)! important;
+}
+# room-settings .geral-settings button.off, # room-settings .general-settings .option.enabled button.on {
+	fundo: gradiente linear (hsl (220,50%, 40%), hsl (220,50%, 30%))! importante;
+	box-shadow: inserção 0 0 2px hsla (0,0%, 100%, 0,5)! important;
+}
+# the-user-profile .notifications.section .row {
+	raio de fronteira: 10 px;
+	fundo: gradiente linear (hsl (210,100%, 20%), hsl (210,100%, 10%));
+}
+botão .tab-menu, # user-settings .container botão, .subscribe-button, .dropdown, # diálogo-usuário-papel .role-menu {
+	raio de fronteira: 10 px;
+	fundo: gradiente linear (hsl (220,5%, 20%), hsl (220,5%, 10%));
+	box-shadow: inserção 0 0 2px hsla (0,0%, 100%, 0,5)! important;
+}
+# user-settings .container button: hover {
+	fundo: gradiente linear (hsl (10,80%, 30%), hsl (0,80%, 20%));
+}
+botão .subscribe: hover {
+	fundo: gradiente linear (hsl (40,70%, 30%), hsl (40,70%, 20%));
+}
+Botão do menu .tab: hover, .dropdown: hover {
+	fundo: gradiente linear (hsl (220,80%, 20%), hsl (220,80%, 10%));
+}
+.tab-menu .selected, .dropdown.open {
+	fundo: gradiente linear (hsl (210,80%, 40%), hsl (210,80%, 30%))! importante;
+	box-shadow: inserção 1px 1px 10px -1px hsla (220,80%, 50%, 0,5)! importante;
+}
+.dropdown dt {
+	raio de fronteira: 10 px;
+	box-shadow: inset -39px 0 0 hsla (0,0%, 100%, 0,15)! importante;
+}
+.dropdown.open, .dropdown.open dt, # diálogo-usuário-papel .role-menu: hover {
+	border-radius: 10px 10px 0 0;
+	font-weight: normal;
+}
+.dropdown dt .level {
+	cor: #eee! importante;
+}
+.dropdown dd {
+    fundo: rgba (26, 27, 27, 0,72);
+}
+.dropdown dd, # chat-sugestão, # diálogo-usuário-papel .role-menu .menu ul li, # pesquisa-sugestão li, # dialog-restricted-media .row.selected, {
+	fundo: hsla (210,10%, 10%, 0,8)! importante;
+}
+# dialog-user-role .role-menu .menu ul li {
+	border-color: hsla (210,10%, 8%, 0,8);
+}
+.dropdown dd .row {
+    posição: relativa;
+    largura: 100%;
+    altura: 39 px;
+    cor: # 6699cc;
+}
+.dropdown dd .row: hover,
+.chat-suggestion-item [estilo = 'fundo: rgb (45, 49, 58);'],
+# search-suggestion .search-suggestion-item.selected,
+# dialog-restricted-media .row.selected,
+# dialog-user-role .role-menu .menu ul li: hover {
+	fundo: gradiente linear (hsla (210,10%, 20%, 0,8), hsla (210,10%, 15%, 0,8))! importante;
+}
+# user-menu .count, .requests .count, .buttons .count, .request-count, .friends .header i {
+	fundo: gradiente radial (hsl (215,100%, 50%), hsl (210,100%, 30%))! importante;
+	box-shadow: inserção 0 0 10px hsl (200,100%, 50%);
+	text-shadow: 0 0 3px # 000;
+}
+# user-menu .selected .count, .button: hover .count, # friends-button.selecionado span, # user-friends .requests.selected span, .friends .header: hover i {
+	fundo: gradiente radial (hsl (210,10%, 20%), hsl (0,0%, 0%))! importante;
+	box-shadow: inserção 0 0 1px # 000;
+	intensidade da fonte: Negrito;
+}
+.grid .cell {
+	raio de fronteira: 30px;
+	fundo: gradiente radial (hsl (220,50%, 40%), hsl (220,50%, 20%))! importante;
+	box-shadow: 0 0 10px # 000;
+}
+.grid .cell .bar, .grid .cell .meta, # user-friends .row {
+	fundo: gradiente linear (hsl (210,10%, 15%), hsl (210,10%, 10%))! importante;
+}
+.grid .cell .meta .host {
+	texto-alinhar: centro;
+	top: 6px;
+	cor: #eee! importante;
+}
+.grid .cell .meta .join {
+	fundo: hsl (220,50%, 20%)! importante;
+	borda: 1px sólido hsl (220,50%, 30%)! importante;
+	box-shadow: 0 0 3px # 000;
+	raio de fronteira: 30px;
+}
+.grid .cell .bar .favorite.selected {
+	fundo: gradiente linear (hsl (220,70%, 50%), hsl (220,70%, 40%))! importante;
+}
+.grid .cell .bar .favorite.selected .icon-grab {
+	posição de fundo: -35px -280px;
+}
+# user-friends .row {
+	raio de fronteira: 20 px;
+	box-shadow: 0 0 10px # 000;
+}
+# user-friends .row .positive {
+	border-radius: 0 20px;
+	fundo: gradiente linear (hsla (210,100%, 50%, 0,3), hsla (210,100%, 40%, 0,3))! importante;
+}
+# user-friends .row .positive: hover {
+	fundo: gradiente linear (hsla (210,100%, 50%, 0,8), hsla (210,100%, 40%, 0,8))! importante;
+}
+# user-friends .row .negative {
+	border-radius: 20px 0px;
+	fundo: gradiente linear (hsla (20,90%, 50%, 0,3), hsla (20,90%, 40%, 0,3))! importante;
+}
+# user-friends .row .negative: hover {
+	fundo: gradiente linear (hsla (20,90%, 50%, 0,8), hsla (20,90%, 40%, 0,8)) importante;
+}
+.user-content .avatars .grid .cell, .user-content .avatars .grid .cell .top {
+	raio de fronteira: 30px;
+}
+.user-content .badges .cell {
+	fundo: gradiente radial (hsl (210,10%, 10%), hsl (210,10%, 5%))! importante;
+	box-shadow: inserção 0 0 30px # 000;
+}
+# user-store .badges .cell: hover {
+	fundo: gradiente radial (hsl (220,50%, 40%), hsl (220,50%, 20%))! importante;
+}
+.grid .cell .top .expires, .grid .cell .top.prices, # the-user-profile .badge-box, # media-panel {
+	fundo: transparente! importante;
+}
+.grid .cell .top .expires span {
+	cor: hsl (30,100%, 50%)! importante;
+}
+# the-user-profile .meta {
+	fundo: hsla (200,100%, 90%, 0,05)! importante;
+	box-shadow: 0 0 0px 15px hsla (200,100%, 90%, 0,05);
+}
+# the-user-profile .experience.section .header {
+	box-shadow: nenhum! importante;
+}
+# the-user-profile .blurb .box {
+	fundo: gradiente linear (135deg, hsl (210,100%, 25%), hsl (200,100%, 25%));
+	box-shadow: inserção 0 0 5px 1px hsla (0,0%, 100%, 0,4);
+}
+# the-user-profile .blurb .arrow-up {
+	borda inferior: 6px sólido hsl (210,100%, 25%);
+}
+# the-user-profile .experience .bar, # footer-user .info .meta .bar {
+	raio de fronteira: 20 px;
+	fundo: gradiente radial (hsl (210,10%, 15%), hsl (210,10%, 20%))! importante;
+}
+# the-user-profile .experience .bar .progress, # footer-user .info .meta .bar .progress {
+    raio de fronteira: 20 px;
+}
+# the-user-profile .experience .bar .value, # footer-user .info .meta .bar .value {
+	text-shadow: 0 0 3px preto;
+}
+/ * #### [BOTÃO DO DJ] #### * /
+# dj-button {
+    raio de fronteira:;
+    fundo: ;
+    Sombra da caixa: ;
+}
+# dj-button: hover {
+	fundo: ;
+}
+# dj-button .left {
+    raio de fronteira:;
+	fundo: ;
+	Sombra da caixa: ;
+}
+# dj-button: hover .left {
+	fundo: ;
+}
+# dj-button.is-deixa .left, # dj-button.is-quit .left {
+    fundo: ;
+    Sombra da caixa: ;
+}
+# dj-button.is-deixar: hover .left, # dj-button.is-quit: hover .left {
+	fundo: ;
+}
+# dj-button.is-full .left {
+    fundo: ;
+    Sombra da caixa: ;
+}
+# dj-button.is-locked .left, # dj-button.is-completo .left {
+    fundo: ;
+    Sombra da caixa: ;
+}
+# dj-button.is-locked: hover .left, # dj-button.is-completo: hover .left {
+	fundo: ;
+}
+/ * #### [COLOR HOST ROOM] #### * /
+# room-host {
+    espaço em branco: nowrap;
+    tamanho da fonte: 12px;
+	font-family: -webkit-body;
+    cor: ;
+}
+.dark-label {
+    cor: # b5b5b5;
+}
+#fullscreenDesativar, #friendfinder, .cbg-images, .rcs-menu-container .group, # rcs-found-update-chat, # tempo de reprodução, # now-playing-dj .username, # woot-rs- lista p, # pega-rs-lista p, # meh-rs-lista p, #waitlist .list .user.name, .friends .list .name {
+    cursor: ponteiro;
+    cor: #FFF;
+}
+#volume {
+    posição: absoluta;
+    top: 27px;
+    direita: 64px;
+    índice z: 10;
+    largura: 30px;
+    altura: 25 px;
+    cor: cornflowerblue;
+}
+/ * #### [BOTÃO VOTO] #### * /
+#vote {
+    Sombra da caixa: ;
+    raio de fronteira:;
+    largura:! importante;
+}
+#app #vote .bottom {
+	fundo: ;
+}
+#woot, #grab, #meh {
+	margin-top: 0! importante;
+}
+#vote .selected,
+#vote .selected .value {
+	intensidade da fonte: Negrito;
+	cor: #FFF;
+}
+.bar-value {
+    font-weight: 300;
+    tamanho da fonte: 15px;
+    font-family: -webkit-body;
+    cor: lightslategrey;
+}
+.pop-menu, .pop-menu .bar {
+	border-radius: 20px 20px 0 0;
+	fundo: transparente;
+}
+.pop-menu .bar {
+	fundo: ;
+}
+.pop-menu .bar-divider {
+	fundo: ;
+}
+.pop-menu .menu ul {
+	fundo: ;
+}
+.pop-menu .menu ul i + span {
+	intensidade da fonte: Negrito;
+}
+.pop-menu .menu ul li: hover {
+	fundo: ;
+}
+.pop-menu .menu ul .criar: hover {
+	fundo: ;
+}
+menu do .pop -menu :: - webkit-scrollbar {
+	fundo:! importante;
+	Sombra da caixa: ;
+	largura: ;
+}
+.pop-menu .menu :: - webkit-scrollbar-thumb {
+	fundo: ;
+	Sombra da caixa: ;
+}
+#vote i.icon.icon-woot-disabled {
+    background-image: url ();
+    background-repeat: sem repetição;
+    posição de fundo: centro;
+}
+#woot i.icon, #grab i.icon, #meh i.icon {
+    tamanho de fundo: capa;
+    background-repeat: sem repetição;
+    posição de fundo: centro central;
+}
+#woot {
+    raio de fronteira:;
+    fundo:! importante;
+    box-shadow:! importante;
+}
+# woot.selected, # woot-rs .title {
+    fundo:! importante;
+    box-shadow:! importante;
+}
+#woot i.icon {
+    background-image: url ();
+}
+#vote i.icon.icon-grab-disabled {
+    background-image: url ();
+    background-repeat: sem repetição;
+    posição de fundo: centro;
+}
+#agarrar {
+    fundo:! importante;
+    box-shadow:! importante;
+    raio de fronteira:;
+}
+# grab.selected, # grab-rs .title {
+    fundo:! importante;
+    box-shadow:! importante;
+}
+#grab i.icon {
+    background-image: url ();
+}
+#vote i.icon.icon-meh-disabled {
+    background-image: url ();
+    background-repeat: sem repetição;
+    posição de fundo: centro;
+}
+#meh {
+    fundo:! importante;
+    box-shadow:! importante;
+    raio de fronteira:;
+    margem direita: 0! importante;
+}
+# meh.selected, # meh-rs .title {
+    fundo:! importante;
+    box-shadow:! importante;
+}
+#meh i.icon {
+    background-image: url ();
+}
+/ * #### [USER-ROLLOVER] #### * /
+# rollover de usuário {
+	border-radius: 5px 5px 0 0;
+	fundo: gradiente linear (135deg, hsla (0,0%, 20%, 0,6), hsla (0,0%, 0%, 0,6));
+	box-shadow: 0 0 10px # 000;
+}
+# user-rollover .info {
+	fundo: nenhum;
+	box-shadow: 0px -2px 10px -1px # 6dc3e0;
+	border-radius: 50% 50% 0 0! importante;
+}
+# rollover de usuário .info i + span {
+	text-shadow: 0 0 5px # 000;
+}
+.polegar {
+	fundo: hsla (210,10%, 10%, 0,4);
+}
+# user-rollover .info .badge-box,
+# user-rollover .background,
+# video-only-dj .background,
+# sugestão de pesquisa,
+# search-suggestion ul {
+	fundo: rgba (0,0,0,0);
+}
+.thumb.large, .thumb, # user-rollover .meta.online .thumb {
+	border-color: hsl (197, 72%, 58%)! importante;
+	box-shadow: 0 0 7px hsl (197, 72%, 58%)! importante;
+}
+.thumb.large, # user-rollover .meta.online .thumb.large {
+	box-shadow: 0 0 15px hsl (197, 72%, 58%)! importante;
+}
+#waitlist .list .user {
+    posição: relativa;
+    estouro: oculto;
+    largura: 100%;
+    altura: 41 px;
+    fundo: rgba (41, 48, 105, 0,48);
+}
+# user-rollover.is-staff .meta.online .thumb, #waitlist .is-staff .thumb {
+	border-color: hsl (270,50%, 50%)! importante;
+	box-shadow: 0 0 7px hsl (270,50%, 50%)! importante;
+}
+# user-rollover.is-staff .meta.online .thumb.large {
+	box-shadow: 0 0 15px hsl (270,50%, 50%)! importante;
+}
+# user-rollover .meta.subscriber .thumb, #waitlist .is-subscriber .thumb {
+	border-color: hsl (45,80%, 45%)! importante;
+	box-shadow: 0 0 7px hsl (45,80%, 45%)! importante;
+}
+# user-rollover .meta.subscriber .thumb.large {
+	box-shadow: 0 0 15px hsl (45,80%, 45%)! importante;
+}
+# rollover de usuário .meta.online .status i {
+	Mostrar nenhum;
+}
+# rollover de usuário .meta.online .status span {
+	cor: hsl (80,70%, 50%);
+	margem esquerda: 0;
+}
+.offline .thumb {
+	border-color: hsl (0,0%, 40%)! importante;
+	box-shadow: nenhum! importante;
+}
+# rollover de usuário .action {
+	fundo: gradiente radial (hsla (0,0%, 7%, 0,8), hsla (0,0%, 0%, 0,8)) importante;
+	box-shadow: 0 0 2px 1px # 151515! importante;
+}
+# rollover de usuário .action: hover {
+	fundo: gradiente radial (hsla (210,100%, 30%, 0,9), hsla (210,100%, 20%, 0,9))! importante;
+	box-shadow: inserir 0 0 50px # 000! important;
+}
+/ * #### [TAG PERFIL] #### * /
+
+/ * vinicius * /
+[data-cid ^ = "36740873-"] .badge-box .bdg,
+# rollover de usuário .id-36740873 .badge-box .bdg {
+    raio de fronteira: 5 px;
+    tamanho de fundo: capa;
+    background-repeat: repetir;
+    posi CA o de Fundo: centro;
+    background-image: url ("https://i.imgur.com/UG4ciFh.jpg");
+}    
+
+/ * Nana * /
+[data-cid ^ = "21755082-"] .badge-box .bdg,
+# rollover de usuário .id-21755082 .badge-box .bdg {
+    raio de fronteira: 5 px;
+    tamanho de fundo: capa;
+    background-repeat: repetir;
+    posi CA o de Fundo: centro;
+    background-image: url ("https://i.imgur.com/u0qXPaS.jpg");
+}
+
+/ * Lolla * /
+[data-cid ^ = "23246837-"] .badge-box .bdg,
+# rollover de usuário .id-23246837 .badge-box .bdg {
+    raio de fronteira: 5 px;
+    tamanho de fundo: capa;
+    background-repeat: repetir;
+    posi CA o de Fundo: centro;
+    background-image: url ( "https://scontent.fsdu7-1.fna.fbcdn.net/v/t1.0-9/20729636_262487590915452_7649870444230668725_n.jpg?_nc_cat=0&_nc_eui2=AeHGwIydlUKd3R7H3e80-gLvj6wjleg-z9F__--ukV5SrVQYnclrmfx00fiXJ5V9qSKjA4VApwPB-HpVFXYIaZdBqz4w3W63rkJau- 5Ei9ytKQ & oh = ee40ed355a3aee5cc44209742997c8eb & oe = 5BAB6BEB ");
+
+}
+
+       
+	/ * ## [TAG-BOT] ## * /
+	   
+        / * # [bot-seduzente] # * /
+# user-rollover.id-22377749 .level: after {
+    background-image: url (nenhum);
+    background-repeat: sem repetição;
+    content: "[BOT]";
+    display: bloco inline;
+    cor: # 44e7ed! importante;
+    intensidade da fonte: Negrito;
+    margem: 0px 0px 0 20px! important;
+    preenchimento: 0 0 0 18px;
+}
+	/ * ## [TAG-VIP] ## * /
+	
+       / * # [MeninaVeneno] # * /
+# user-rollover.id-21755082 .level: after {
+    background-image: url (nenhum);
+    background-repeat: sem repetição;
+    conteúdo: "[VIP]";
+    display: bloco inline;
+    cor: # e2da24! importante;
+    intensidade da fonte: Negrito;
+    margem: 0px 0px 0 20px! important;
+    preenchimento: 0 0 0 18px;
+}
+       / * # [Lolla] # * /
+# user-rollover.id-23246837 .level: after {
+    background-image: url (nenhum);
+    background-repeat: sem repetição;
+    conteúdo: "[VIP]";
+    display: bloco inline;
+    cor: # e2da24! importante;
+    intensidade da fonte: Negrito;
+    margem: 0px 0px 0 20px! important;
+    preenchimento: 0 0 0 18px;
+}
+        / * # [ninguem] # * /
+# user-rollover.id-000000 .level: after {
+    background-image: url (nenhum);
+    background-repeat: sem repetição;
+    conteúdo: "[VIP]";
+    display: bloco inline;
+    cor: # e2da24! importante;
+    intensidade da fonte: Negrito;
+    margem: 0px 0px 0 20px! important;
+    preenchimento: 0 0 0 18px;
+}
+        / * # [ninguem] # * /
+# user-rollover.id-000000 .level: after {
+    background-image: url (nenhum);
+    background-repeat: sem repetição;
+    conteúdo: "[VIP]";
+    display: bloco inline;
+    cor: # e2da24! importante;
+    intensidade da fonte: Negrito;
+    margem: 0px 0px 0 20px! important;
+    preenchimento: 0 0 0 18px;
+}
+        / * # [ninguem] # * /
+# user-rollover.id-000000 .level: after {
+    background-image: url (nenhum);
+    background-repeat: sem repetição;
+    conteúdo: "[VIP]";
+    display: bloco inline;
+    cor: # e2da24! importante;
+    intensidade da fonte: Negrito;
+    margem: 0px 0px 0 20px! important;
+    preenchimento: 0 0 0 18px;
+}
+        / * # [ninguem] # * /
+# user-rollover.id-000000 .level: after {
+    background-image: url (nenhum);
+    background-repeat: sem repetição;
+    conteúdo: "[VIP]";
+    display: bloco inline;
+    cor: # e2da24! importante;
+    intensidade da fonte: Negrito;
+    margem: 0px 0px 0 20px! important;
+    preenchimento: 0 0 0 18px;
+}
+        / * # [ninguem] # * /
+# user-rollover.id-000000 .level: after {
+    background-image: url (nenhum);
+    background-repeat: sem repetição;
+    conteúdo: "[VIP]";
+    display: bloco inline;
+    cor: # e2da24! importante;
+    intensidade da fonte: Negrito;
+    margem: 0px 0px 0 20px! important;
+    preenchimento: 0 0 0 18px;
+}
+/*#### [BATE-PAPO] ####*/
+# chat-header {
+	fundo: rgba (30,35,40,0,7);
+	fronteira: nenhum! importante;
+}
+# chat-messages :: - webkit-scrollbar, .dropdown dd :: - webkit-scrollbar, # woot-rs-lista :: - webkit-scrollbar, # pega-rs-lista :: - webkit-scrollbar, # meh- rs-list :: - webkit-scrollbar, .dialog :: - webkit-scrollbar {
+    largura: 7px! importante;
+    box-shadow: inserção -1px 0 7px hsla (203, 98%, 46%, 0,7);
+}
+# chat-messages .text {
+    posição: relativa;
+    font-family: sem serifa;
+    tamanho da fonte: 12px;
+    cor: # d6d7d8;
+}
+# chat-messages {
+	border-color: # 555;
+	box-shadow: 0 51px 0 rgba (30,35,40,0,7);
+}
+# chat-messages :: - webkit-scrollbar,
+.dropdown dd :: - webkit-scrollbar,
+# woot-rs-list :: - webkit-scrollbar,
+# grab-rs-list :: - webkit-scrollbar,
+# meh-rs-list :: - webkit-scrollbar,
+.dialog :: - webkit-scrollbar {
+	largura: 7px! importante;
+	box-shadow: inserção -1px 0 7px hsla (0,0%, 0%, 0,7);
+}
+# chat-messages :: - webkit-scrollbar-thumb,
+.dropdown dd :: - webkit-scrollbar-thumb,
+# woot-rs-list :: - webkit-scrollbar-thumb,
+# grab-rs-list :: - webkit-scrollbar-thumb,
+# meh-rs-list :: - webkit-scrollbar-thumb,
+.dialog :: - webkit-thumb,
+.jspDrag {
+	fundo: gradiente linear (para a direita, hsl (210,10%, 50%), hsl (210,10%, 20%));
+	box-shadow: inserção 1px 0 7px hsla (0,0%, 100%, 0,5);
+	raio de fronteira: 5 px;
+}
+.jspTrack {box-shadow: inserção -1px 0 10px hsla (0,0%, 20%, 1); }
+.app-right # chat-input,
+#dashboard .search,
+#Barra de pesquisa,
+# barra de filtros,
+# user-friends .search,
+.app-right .friends .list-header .input-background {
+    border-radius: 10px 10px;
+    fundo: gradiente linear (para cima, hsla (220, 5%, 64%, 0,34), hsla (219, 66%, 50%, 0,2));
+	fundo: 10px! importante;
+}
+.focado {
+	cor: #EEE! importante;
+	box-shadow: inserção 0 0 0 1px # 05F! important;
+	fundo: nenhum! importante;
+}
+# chat-input-field {
+	cor: # 888! importante;
+	intensidade da fonte: Negrito;
+}
+# chat-input.focused # chat-input-field {
+	cor: #EEE! importante;
+}
+/ * #### [BEM-VINDO & LOG] #### * /
+#chat .cm.welcome {
+    cor: hsl (210,80%, 60%);
+    box-shadow: nenhum;
+    fronteira: dupla;
+    border-radius: 10px 10px;
+}
+#chat .log .text {
+    cor: #ffffff;
+    font-weight: 700;
+    texto-alinhar: centro;
+    border-radius: 25px 25px;
+    box-shadow: inserção 0px 0px 17px 3px # 798892;
+}
+#chat .log {
+	fundo: gradiente linear (hsla (220,30%, 20%, 0,8), hsla (220,30%, 15%, 0,8)),
+	gradiente linear (para a direita, hsla (0,0%, 0%, 0), hsla (0,0%, 100%, 0,2))! importante;
+	box-shadow: inserção 0 -1px 1px hsla (220,30%, 10%, 0,8);
+}
+.cm strong {
+	cor: #fff! importante;
+}
+.cm em {
+	cor: # 999! importante;
+}
+
+/ * #### [MODERAÇÃO] #### * /
+#chat .cm.moderation {
+	fundo: gradiente linear (hsla (260,50%, 25%, 0,8), hsla (260,50%, 15%, 0,8)),
+	gradiente linear (para a direita, hsla (0,0%, 0%, 0), hsla (0,0%, 100%, 0,2))! importante;
+	box-shadow: inserção 0 0 0 1px hsl (260,50%, 50%);
+	fronteira: nenhum! importante;
+}
+#chat .cm.moderation .timestamp {
+	cor: hsl (260,70%, 70%);
+}
+/ * #### [USER-ACTION] #### * /
+#chat .cm.user-action {
+	fundo: gradiente linear (hsla (60,100%, 20%, 0,8), hsla (60,100%, 10%, 0,8)),
+	gradiente linear (para a direita, hsla (0,0%, 0%, 0), hsla (0,0%, 100%, 0,2))! importante;
+	box-shadow: inserção 0 0 0 1px hsla (0,0%, 100%, 0,1);
+}
+#chat .cm.user-action .msg .de .un, #chat .cm.user-action .timestamp {
+	cor: hsl (60,90%, 70%)! importante;
+}
+/ * #### [MENTION] #### * /
+#chat.cm.mention.role-host {
+	fundo: gradiente linear (hsla (200,100%, 30%, 0,8), hsla (200,100%, 20%, 0,8)),
+	gradiente linear (para a direita, hsla (0,0%, 0%, 0), hsla (0,0%, 100%, 0,2))! importante;
+	box-shadow: inserção 0 0 0 1px hsl (200,50%, 50%);
+}
+#chat .cm.mention.role-host .name, #chat .cm.mention.role-host .timestamp {
+	cor: hsl (200,100%, 50%);
+}
+#chat .cm.mention.role-cohost {
+	fundo: gradiente linear (hsla (210,100%, 30%, 0,8), hsla (210,100%, 20%, 0,8)),
+	gradiente linear (para a direita, hsla (0,0%, 0%, 0), hsla (0,0%, 100%, 0,2))! importante;
+	box-shadow: inserção 0 0 0 1px hsl (210,50%, 50%);
+}
+#chat .cm.mention.role-cohost .name, #chat .cm.mention.role-cohost .timestamp {
+	cor: hsl (210,100%, 50%);
+}
+#chat.cm.mention.role-manager {
+	fundo: gradiente linear (hsla (350,85%, 20%, 0,8), hsla (350,85%, 10%, 0,8)),
+	gradiente linear (para a direita, hsla (0,0%, 0%, 0), hsla (0,0%, 100%, 0,2))! importante;
+	box-shadow: inserção 0 0 0 1px hsl (350,50%, 50%);
+}
+#chat .cm.mention.role-manager .name, #chat .cm.mention.role-manager .timestamp {
+	cor: # E15;
+}
+#chat.cm.mention.role-bouncer {
+	fundo: gradiente linear (hsla (354,100%, 20%, 0,8), hsla (354,100%, 10%, 0,8)),
+	gradiente linear (para a direita, hsla (0,0%, 0%, 0), hsla (0,0%, 100%, 0,2))! importante;
+	box-shadow: inserção 0 0 0 1px hsl (354,50%, 50%);
+}
+#chat .cm.mention.role-bouncer .name, #chat .cm.mention.role-bouncer .timestamp {
+	cor: # F45;
+}
+#chat .cm.mention.role-dj {
+	fundo: gradiente linear (hsla (20,100%, 30%, 0,8), hsla (20,100%, 20%, 0,8)),
+	gradiente linear (para a direita, hsla (0,0%, 0%, 0), hsla (0,0%, 100%, 0,2))! importante;
+	box-shadow: inserção 0 0 0 1px hsl (20,50%, 50%);
+}
+#chat .cm.mention.role-dj .name, #chat .cm.mention.role-dj .timestamp {
+	cor: hsl (20,100%, 60%);
+}
+#chat .cm.mention.role-subscriber {
+	fundo: gradiente linear (hsla (40,100%, 30%, 0,8), hsla (40,100%, 20%, 0,8)),
+	gradiente linear (para a direita, hsla (0,0%, 0%, 0), hsla (0,0%, 100%, 0,2))! importante;
+	box-shadow: inserção 0 0 0 1px hsl (30,50%, 50%);
+}
+#chat .cm.mention.role-assinante .name, #chat .cm.mention.role-inscriber .timestamp, # user-rollover .meta.subscriber .status span {
+	cor: hsl (40,100%, 60%);
+}
+#chat .cm.mention {
+	fundo: gradiente linear (hsla (77,100%, 20%, 0,8), hsla (77,100%, 11%, 0,8)),
+	gradiente linear (para a direita, hsla (0,0%, 0%, 0), hsla (0,0%, 100%, 0,2))! importante;
+	box-shadow: inserção 0 0 0 1px hsl (77,100%, 30%);
+	fronteira: nenhum! importante;
+}
+#chat .cm.mention .name, #chat .cm.mention .timestamp {
+	cor: hsl (77,100%, 50%);
+}
+#chat .cm.mention .msg .de .un {
+	cor: hsl (77,100%, 40%);
+}
+#chat .cm.mention .msg {
+	fundo: nenhum! importante;
+}
+/*#### [ROBÔ] ####*/
+#chat .cm.emote {
+    fundo: gradiente linear (hsl (235, 65%, 19%), hsl (235, 65%, 19%)), gradiente linear (para a direita, hsl (0, 0%, 0%), hsl (0 , 0%, 0%))! Importante;
+    border-left: nenhum! importante;
+    texto-alinhar: esquerda;
+    box-shadow: inserção 0 0 0px 1px hsla (237, 100%, 50%, 0,5);
+}
+#chat .cm.emote .un, #chat .cm.emote .timestamp {
+	cor: hsl (210,100%, 60%)! importante;
+}
+#chat .cm.emote i {
+	display: inline! importante;
+}
+#chat .emote .text {
+  estilo de fonte: oblíquo! importante;
+}
+/ * #### [RCS] #### * /
+# woot-rs, # grab-rs, # meh-rs {
+	topo: -1px;
+	border-radius: 10px 10px 0 0;
+	fundo: hsla (210,10%, 5%, 0,8);
+	box-shadow: 0 0 10px # 000;
+	z-index: 0;
+}
+# woot-rs .title, # pegar-rs .title, # meh-rs .title {
+	border-radius: 10px 10px 0 0;
+}
+#chat .cm.rsshit.message {
+	fronteira: nenhum! importante;
+}
+.app-right {
+	fundo: hsla (210,10%, 5%, 0,9)! importante;
+}
+# rcs-progress-container .bar {
+    cor de fundo: rgba (11, 128, 243, 0,73);
+}
+# rcs-menu-container .container .group {
+	border-color: hsl (220,50%, 20%)! importante;
+	fundo: gradiente linear (hsla (220,50%, 10%, 0,8), hsla (220,50%, 7%, 0,8)) importante;
+}
+.rcs.item.selected span {
+	cor: hsl (200,60%, 50%)! importante;
+}
+
+/ * #### [TAG-ANTES-DO-NOME] #### * /
+
+    /*## [ROBÔ] ##*/
+	
+        / * # [ninguem] # * /
+#chat [data-cid ^ = '000000-'] .un: before {
+    conteúdo: '[BOT]';
+    top: 0px;
+    Esquerda: 0px;
+	cor: # 44e7ed! importante;
+    preenchimento esquerdo: 2px;
+    preenchimento à direita: 4 px;
+    posição: relativa;
+}
+        / * # [TAG-VIP] # * /
+		/ * # ninguem # * /
+#chat [data-cid ^ = '000000-'] .un: before {
+    conteúdo: '[VIP]';
+    top: 0px;
+    Esquerda: 0px;
+	cor: # e2da24! importante;
+    preenchimento esquerdo: 2px;
+    preenchimento à direita: 4 px;
+    posição: relativa;
+}
+		/ * # ninguem # * /
+#chat [data-cid ^ = '000000-'] .un: before {
+    conteúdo: '[VIP]';
+    top: 0px;
+    Esquerda: 0px;
+	cor: # e2da24! importante;
+    preenchimento esquerdo: 2px;
+    preenchimento à direita: 4 px;
+    posição: relativa;
+}
+		/ * # Percyvall # * /
+#chat [data-cid ^ = '29319764-'] .un: before {
+    conteúdo: '[VIP]';
+    top: 0px;
+    Esquerda: 0px;
+	cor: # e2da24! importante;
+    preenchimento esquerdo: 2px;
+    preenchimento à direita: 4 px;
+    posição: relativa;
+}
+		/ * # ninguem # * /
+#chat [data-cid ^ = '000000-'] .un: before { 
+    conteúdo: '[VIP]';
+    top: 0px;
+    Esquerda: 0px;
+	cor: # e2da24! importante;
+    preenchimento esquerdo: 2px;
+    preenchimento à direita: 4 px;
+    posição: relativa;
+}
+		/ * # ninguem # * /
+#chat [data-cid ^ = '000000-'] .un: before {
+    conteúdo: '[VIP]';
+    top: 0px;
+    Esquerda: 0px;
+	cor: # e2da24! importante;
+    preenchimento esquerdo: 2px;
+    preenchimento à direita: 4 px;
+    posição: relativa;
+}
+		/ * # ninguem # * /
+#chat [data-cid ^ = '000000-'] .un: before {
+    conteúdo: '[VIP]';
+    top: 0px;
+    Esquerda: 0px;
+	cor: # e2da24! importante;
+    preenchimento esquerdo: 2px;
+    preenchimento à direita: 4 px;
+    posição: relativa;
+}
+		/ * # ninguem # * /
+#chat [data-cid ^ = '000000-'] .un: before {
+    conteúdo: '[VIP]';
+    top: 0px;
+    Esquerda: 0px;
+	cor: # e2da24! importante;
+    preenchimento esquerdo: 2px;
+    preenchimento à direita: 4 px;
+    posição: relativa;
+}
+		/ * # ninguem # * /
+#chat [data-cid ^ = '000000-'] .un: before {
+    conteúdo: '[VIP]';
+    top: 0px;
+    Esquerda: 0px;
+	cor: # e2da24! importante;
+    preenchimento esquerdo: 2px;
+    preenchimento à direita: 4 px;
+    posição: relativa;
+}
+		/ * # ninguem # * /
+#chat [data-cid ^ = '000000-'] .un: before {
+    conteúdo: '[VIP]';
+    top: 0px;
+    Esquerda: 0px;
+	cor: # e2da24! importante;
+    preenchimento esquerdo: 2px;
+    preenchimento à direita: 4 px;
+    posição: relativa;
+}
+
+/ * #### [EMBLEMA-CUSTOM] #### * /
+
+    /*## [Funcionários] ##*/
+
+        / * # [NightPlug] # * /
+# user-rollover.id-30619682 .badge-box> i.bdg,
+.id-30619682> .badge-box> i.bdg
+{
+    background-image: url ("https://image.prntscr.com/image/L6YS1zFSQpG1lkvhCNP0XA.gif");
+}
+        / * # [Percyvall] # * /
+# user-rollover.id-29319764 .badge-box> i.bdg,
+.id-29319764> .badge-box> i.bdg
+{
+	background-image: url ("https://image.prntscr.com/image/VQWEV9GfT4K1mpg2ykFWvg.gif");
+}
+
+@keyframes rainbow {
+	0% {color: # ff0000;}
+	10% {color: # ff8000;}
+	20% {cor: # ffff00;}
+	30% {color: # 80ff00;}
+	40% {cor: # 00ff00;}
+	50% {cor: # 00ff80;}
+	60% {cor: # 00ffff;}
+	70% {cor: # 0080ff;}
+	80% {color: # 0000ff;}
+	90% {color: # 8000ff;}
+	100% {color: # ff0080;}
